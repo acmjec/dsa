@@ -1,6 +1,6 @@
 <h1 align="center">Hello, Problem Solvers !!! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"></h1>
 
-<p align="center"> <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" height="160px" width="160px"></p>
+<p align="center"> <img src="https://octodex.github.com/images/collabocats.jpg" height="160px" width="160px"></p>
 
 ## :boom: What it's about? 
 👩‍💻 This repository is for Competitive Coders to get started with Open-source. 
