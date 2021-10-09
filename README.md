@@ -53,8 +53,8 @@ Given an array arr[] of non-negative integers representing the height of blocks.
 
 **Input:** arr[] = [0,1,0,2,1,0,1,3,2,1,2,1]<br>
 **Output:** 6<br>
-Explanation:<br>
 ![Rain Water Trapping](https://i.imgur.com/7UFvD5D.png)<br>
+Explanation:<br>
 The above elevation map (black section) is represented by array [0,1,0,2,1,0,1,3,2,1,2,1]. In this case, 6 units of rain water (blue section) are being trapped.<br>
 **Constraints :**<br>
 1 <= nums.length <= 10<sup>5</sup><br>
@@ -67,7 +67,8 @@ Given the heads of two singly linked-lists headA and headB, return the node at w
 LinkedList2 = 10->common<br>
 Common = 15->30->NULL<br>
 **Output:** 15<br>
-Explanation: ![Intersection of two linked lists](https://i.imgur.com/SNliHgD.jpg)<br>
+![Intersection of two linked lists](https://i.imgur.com/SNliHgD.jpg)<br>
+Explanation: <br>
 Following two linked lists begin to intersect at node 15.<br>
 **Constraints :**<br>
 1 ≤ N + M ≤ 2*10<sup>5</sup><br>
@@ -78,7 +79,8 @@ Given the root of a binary tree, return the zigzag level order traversal of its 
 
 **Input:** root = [3,9,20,null,null,15,7]<br>
 **Output:** [ [3], [20,9], [15,7] ]<br>
-Explanation: ![Zigzag traversal of binary tree](https://i.imgur.com/g5PA9lQ.jpg)<br>
+![Zigzag traversal of binary tree](https://i.imgur.com/g5PA9lQ.jpg)<br>
+Explanation: <br>
 Following two linked lists begin to intersect at node 15.<br>
 **Constraints :**<br>
 1 ≤ N + M ≤ 2*10<sup>5</sup><br>
