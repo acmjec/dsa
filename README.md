@@ -2,8 +2,9 @@
 
 <p align="center"> <img src="https://octodex.github.com/images/NUX_Octodex.gif" height="160px" width="160px"></p>
 
-   
-   ## :boom: What it's about? 
+-![Sample Gif](https://octodex.github.com/images/NUX_Octodex.gif)
+
+## :boom: What it's about? 
 👩‍💻 This repository is for Competitive Coders to get started with Open-source. 
 
 📃 We have curated a list of standard problems for you to get better at DSA.
