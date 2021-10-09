@@ -10,10 +10,10 @@
 
 🐾 Follow these steps to get started
 
-👉 Pick a question from the list given below.
-👉 Fork this repository.
-👉 Add your solution.
-👉 Create pull-request.
+👉 Pick a question from the list given below.<br>
+👉 Fork this repository.<br>
+👉 Add your solution.<br>
+👉 Create pull-request.<br>
 
 :rocket: Start contributing to this repository by adding your solutions for questions given below.
 
