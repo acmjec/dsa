@@ -49,28 +49,28 @@ Explanation: [4,-1,2,1] has the largest sum = 6.<br>
 **Solution** We will initiate two variables current_sum and max_sum initiated with zero,
 then iterate over array to add every element to current_sum and compare with max_sum if current sum becomes greater than max_sum it will assign max_sum the value of current_sum .
 And in case current_sum becomes negative we will reinitialize it with zero.
-**Code** In C++ :
- #include<iostream>
- using namespace std;
-
- int main(){
-     int n;
-     cin>>n;
-     int nums[n];
-     for(int i = 0;i < n;i++){
-         cin>>nums[i];
-     }
-     int current_sum=0,max_sum=0;
-     for(int i=0;i<n;i++){
-         current_sum+=nums[i];
-         if(current_sum > max_sum)
-         max_sum = current_sum;
-         if(current_sum < 0)
-         current_sum=0;
-     }
-     cout<<max_sum<<endl;
-     return 0;
- } 
+**Code** In C++ : <br>
+ #include<iostream><br>
+ using namespace std;<br>
+<br>
+ int main(){<br>
+     int n;<br>
+     cin>>n;<br>
+     int nums[n];<br>
+     for(int i = 0;i < n;i++){<br>
+         cin>>nums[i];<br>
+     }<br>
+     int current_sum=0,max_sum=0;<br>
+     for(int i=0;i<n;i++){<br>
+         current_sum+=nums[i];<br>
+         if(current_sum > max_sum)<br>
+         max_sum = current_sum;<br>
+         if(current_sum < 0)<br>
+         current_sum=0;<br>
+     }<br>
+     cout<<max_sum<<endl;<br>
+     return 0;<br>
+ } <br>
 
 <hr><h4>Q3. Trapping Rainwater</h4>
 Given an array arr[] of non-negative integers representing the height of blocks. If width of each block is 1, compute how much water can be trapped between the blocks during the rainy season.<br>
