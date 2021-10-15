@@ -46,6 +46,31 @@ Explanation: [4,-1,2,1] has the largest sum = 6.<br>
 **Constraints :**<br>
 1 <= nums.length <= 10<sup>5</sup><br>
 -10 <sup>4</sup> <= nums[i] <= 10<sup>4</sup><br>
+**Solution** We will initiate two variables current_sum and max_sum initiated with zero,
+then iterate over array to add every element to current_sum and compare with max_sum if current sum becomes greater than max_sum it will assign max_sum the value of current_sum .
+And in case current_sum becomes negative we will reinitialize it with zero.
+**Code** In C++ :
+ #include<iostream>
+ using namespace std;
+
+ int main(){
+     int n;
+     cin>>n;
+     int nums[n];
+     for(int i = 0;i < n;i++){
+         cin>>nums[i];
+     }
+     int current_sum=0,max_sum=0;
+     for(int i=0;i<n;i++){
+         current_sum+=nums[i];
+         if(current_sum > max_sum)
+         max_sum = current_sum;
+         if(current_sum < 0)
+         current_sum=0;
+     }
+     cout<<max_sum<<endl;
+     return 0;
+ } 
 
 <hr><h4>Q3. Trapping Rainwater</h4>
 Given an array arr[] of non-negative integers representing the height of blocks. If width of each block is 1, compute how much water can be trapped between the blocks during the rainy season.<br>
