@@ -14,3 +14,5 @@
 👉 Create pull-request.<br>
 
 :rocket: Start contributing to this repository by adding your solutions for questions given below.
+
+-Arunika Bhattacharya[Arunika22]
